@@ -1,16 +1,4 @@
-# print("你好")
-
 import random
-
-# r = random.randint(1,1000)
-#
-# while(1):
-#     inputNumber = int(input("请输入一个数字："))
-#     if inputNumber % 2 == 0:
-#         print(inputNumber, "是双数")
-#     else:
-#         print(inputNumber, "是单数")
-
 
 a = random.randint(1,100)
 b = random.randint(1,100)
@@ -19,7 +7,7 @@ print("请计算：",a,"+",b,"=",end="")
 
 bCorrect = False
 
-count = 8
+count = 0
 
 while(count<100):
     addRes = int(input())
